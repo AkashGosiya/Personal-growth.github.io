@@ -3781,7 +3781,7 @@ h3 {
 
 @media screen and (max-width: 480px) {
 	#h3first {
-		font-size: 100%;
+		font-size: 85%;
 		line-height: 1;
 	}
 	#first-image {
@@ -3814,6 +3814,11 @@ h3 {
 	#first-image {
 		width: 100%;
 		height: auto;
+	}
+	#another-image {
+		width: 43%;
+		height: auto;
+		margin-bottom: 7%;
 	}
 	
 }
