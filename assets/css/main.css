@@ -3611,3 +3611,36 @@ input, select, textarea {
 			}
 
 		}
+
+
+		/* Brainstorming post changes */
+		@media screen and (max-width: 1080px) {
+			.post {
+			width:49%;
+			float: left;
+			margin-left: 1%;
+			margin-right: 0%;
+			
+		}
+	}
+
+	@media screen and (max-width: 480px) {
+		.post {
+			margin-left: 10%;
+			width:100%;
+		}
+		
+	}
+	#brainstorming {
+		background-image: linear-gradient(to right, #4facfe 20%, #00f2fe 100%);		
+	color:#f4f4f4;
+	
+	}
+	#fourapps {
+		background-color: #08AEEA;
+		background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+		color:#f4f4f4;
+	}
+	h2 {
+		padding-left: 5%;
+	}
